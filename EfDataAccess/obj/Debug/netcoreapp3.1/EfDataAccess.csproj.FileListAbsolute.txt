@@ -1,0 +1,30 @@
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.deps.json
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.dll
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.csprojAssemblyReference.cache
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.AssemblyInfoInputs.cache
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.AssemblyInfo.cs
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.runtimeconfig.json
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.runtimeconfig.dev.json
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.genruntimeconfig.cache
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.pdb
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\MovieShop.Domain.dll
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\bin\Debug\netcoreapp3.1\MovieShop.Domain.pdb
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.csproj.CopyComplete
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.dll
+C:\Users\Aca\source\repos\MovieShop\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.deps.json
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.runtimeconfig.json
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.runtimeconfig.dev.json
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\EfDataAccess.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\MovieShop.Domain.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\bin\Debug\netcoreapp3.1\MovieShop.Domain.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.csprojAssemblyReference.cache
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.AssemblyInfoInputs.cache
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.AssemblyInfo.cs
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.csproj.CopyComplete
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\EfDataAccess\obj\Debug\netcoreapp3.1\EfDataAccess.genruntimeconfig.cache

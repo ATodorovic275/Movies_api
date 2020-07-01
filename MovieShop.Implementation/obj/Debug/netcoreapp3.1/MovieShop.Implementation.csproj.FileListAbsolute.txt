@@ -1,0 +1,32 @@
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.csprojAssemblyReference.cache
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.AssemblyInfoInputs.cache
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.AssemblyInfo.cs
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Implementation.deps.json
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Implementation.dll
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Implementation.pdb
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Application.dll
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Domain.dll
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Application.pdb
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Domain.pdb
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.csproj.CopyComplete
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.dll
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.pdb
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\EfDataAccess.dll
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\bin\Debug\netcoreapp3.1\EfDataAccess.pdb
+C:\Users\Aca\source\repos\MovieShop\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Implementation.deps.json
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Implementation.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Implementation.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\EfDataAccess.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Application.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Domain.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Application.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\MovieShop.Domain.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\bin\Debug\netcoreapp3.1\EfDataAccess.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.csprojAssemblyReference.cache
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.AssemblyInfoInputs.cache
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.AssemblyInfo.cs
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.csproj.CopyComplete
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.dll
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.pdb
+C:\Users\Aca\source\repos\MovieShop - Copy\MovieShop.Implementation\obj\Debug\netcoreapp3.1\MovieShop.Implementation.csproj.CoreCompileInputs.cache
