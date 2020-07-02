@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "o6pJcCJoHXxKRHAawubAsb4Fyti17J/K0IDbb4pJHIac1aUuGc8S6nEW8JYjmU6DsyyqLMTs3yh/4QeQ8W7fug==",
+  "dgSpecHash": "XnJFQ4gApoVVIbqhRvXMrcGJOKfjAJ+ioe2vnx1GyBAmP/IR1jh9TfuGRplv1KbGl9oo3N2IOLFVDRq3oFPRXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aca\\source\\repos\\MovieShop - Copy\\MovieShop.Api\\MovieShop.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aca\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Aca\\.nuget\\packages\\easyencryption.core\\1.0.0\\easyencryption.core.1.0.0.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.5\\microsoft.aspnetcore.authentication.jwtbearer.3.1.5.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

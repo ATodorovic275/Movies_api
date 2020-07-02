@@ -260,6 +260,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "EasyEncryption.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[8.6.2, )"

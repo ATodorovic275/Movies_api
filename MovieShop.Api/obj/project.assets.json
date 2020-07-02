@@ -28,6 +28,15 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "EasyEncryption.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/EasyEncryption.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyEncryption.dll": {}
+        }
+      },
       "FluentValidation/8.6.2": {
         "type": "package",
         "dependencies": {
@@ -2679,6 +2688,7 @@
         "dependencies": {
           "AutoMapper": "10.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "EasyEncryption.Core": "1.0.0",
           "FluentValidation": "8.6.2",
           "MovieShop.Application": "1.0.0",
           "MovieShop.Domain": "1.0.0"
@@ -2720,6 +2730,18 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
+    "EasyEncryption.Core/1.0.0": {
+      "sha512": "w8yfahAhSgegeKTQYmuQAx2VP0tuU5vlSIqmObsZmeNfBkBW4+FZWJLVnymRd9KB6nxH96lJSPikEwELp8E1dQ==",
+      "type": "package",
+      "path": "easyencryption.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easyencryption.core.1.0.0.nupkg.sha512",
+        "easyencryption.core.nuspec",
+        "lib/netstandard2.0/EasyEncryption.dll"
       ]
     },
     "FluentValidation/8.6.2": {

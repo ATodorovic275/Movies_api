@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "S3LiT0ui22vS30wuiYi8SqzFEZzN8dniM7XpXE20g+EdV11IK5CykC5agI3Ct954zQYjVSj2+FHcWj1wfGox5A==",
+  "dgSpecHash": "I9KAohyUBLKiZ2TUlnlT/L0T/YZ8FAo6rjLaqr7NQLXGCSTijQxDefRIz15k7gaj7rX3EXvFPpSKJVszfrijMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aca\\source\\repos\\MovieShop - Copy\\MovieShop.Implementation\\MovieShop.Implementation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aca\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Aca\\.nuget\\packages\\easyencryption.core\\1.0.0\\easyencryption.core.1.0.0.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Aca\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

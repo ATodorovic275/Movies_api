@@ -24,7 +24,7 @@ namespace MovieShop.Api.Core
         public string MakeToken(string username, string password)
         {
             var user = context.Users.Include(u=>u.UserUseCases)
-                .FirstOrDefault(x => x.Username == username && x.Password == password);
+                .FirstOrDefault(x => x.Username == username && x.Password == EasyEncryption.SHA.ComputeSHA256Hash(password));
 
             if (user == null)
             {

@@ -35,9 +35,9 @@ namespace MovieShop.Api.Controllers
 
         // GET: api/AdminUser/5
         [HttpGet("{id}", Name = "GetAdminUsers")]
-        public IActionResult Get(int id)
+        public IActionResult Get(int id, [FromServices] IGetOneUserQuery query)
         {
-            return Ok();
+            return Ok(executor.ExecuteQuery(query, id));
         }
 
         // POST: api/AdminUser

@@ -40,7 +40,8 @@ namespace MovieShop.Implementation.Commands
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Username = request.Username,
-                Password = request.Password,
+                Password = EasyEncryption.SHA.ComputeSHA256Hash(request.Password),
+                //Password =  request.Password,
                 Email = request.Email
             };
 
