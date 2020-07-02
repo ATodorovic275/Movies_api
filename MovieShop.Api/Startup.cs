@@ -84,6 +84,8 @@ namespace MovieShop.Api
 
             services.AddTransient<IGetUserQuery, EfGetUsersQuery>();
             services.AddTransient<IGetOneUserQuery, EfGetOneUserQuery>();
+            services.AddTransient<IDeleteUserCommand, EfDeleteUserCommand>();
+
 
             services.AddTransient<IUpdateUserCommand, EfUpdateUserCommand>();
 

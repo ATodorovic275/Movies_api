@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Threading.Tasks;
 using EfDataAccess;
@@ -58,9 +59,11 @@ namespace MovieShop.Api.Controllers
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id, [FromServices] IDeleteUserCommand command)
         {
             //soft delete
+            executor.ExecuteCommand(command, id);
+            return NoContent();
         }
     }
 }
