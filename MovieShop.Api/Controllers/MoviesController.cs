@@ -56,8 +56,10 @@ namespace MovieShop.Api.Controllers
         [HttpPut("{id}")]
         [Authorize]
 
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromServices] IUpdateMovieCommand command,UpdateMovieDto dto )
         {
+            dto.Id = id;
+            executor.ExecuteCommand(command, dto);
         }
 
         // DELETE: api/ApiWithActions/5

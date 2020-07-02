@@ -64,6 +64,8 @@ namespace MovieShop.Api
             services.AddTransient<IGetMovieQuery, EfGetMovieQuery>();
             services.AddTransient<IGetOneMovieQuery, EfGetOneMovieQuery>();
             services.AddTransient<IDeleteMovieCommand, EfDeleteMovieCommand>();
+            services.AddTransient<IUpdateMovieCommand, EfUpdateMovieCommand>();
+
 
 
 
@@ -76,6 +78,8 @@ namespace MovieShop.Api
             services.AddTransient<IGetDirectorQuery, EfGetDirectorQuery>();
             services.AddTransient<IDeleteDirectorCommand, EfDeleteDirectorCommand>();
             services.AddTransient<IUpdateDirectorCommand, EfUpdateDirectorCommand>();
+            services.AddTransient<IGetOneDirectorQuery, EfGetOneDirectorQuery>();
+
 
 
             services.AddTransient<IGetUserQuery, EfGetUsersQuery>();
@@ -145,6 +149,7 @@ namespace MovieShop.Api
 
             services.AddTransient<AddMovieValidator>();
             services.AddTransient<DeleteMovieValidator>();
+            services.AddTransient<UpdateMovieValidator>();
 
 
 

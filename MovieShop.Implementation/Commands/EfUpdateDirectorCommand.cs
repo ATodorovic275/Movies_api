@@ -29,6 +29,7 @@ namespace MovieShop.Implementation.Commands
         public void Execute(UpdateDirectorDto request)
         {
             validator.ValidateAndThrow(request);
+
             var director = context.Directors.Find(request.Id);
             if (director == null)
                 throw new EntityNotFoundException(request.Id, typeof(Director));

@@ -34,9 +34,9 @@ namespace MovieShop.Api.Controllers
 
         // GET: api/Director/5
         [HttpGet("{id}", Name = "GetDirector")]
-        public string Get(int id)
+        public IActionResult Get(int id,[FromServices] IGetOneDirectorQuery query)
         {
-            return "value";
+            return Ok(executor.ExecuteQuery(query, id));
         }
 
         // POST: api/Director
