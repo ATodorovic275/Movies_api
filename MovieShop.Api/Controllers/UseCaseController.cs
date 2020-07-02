@@ -11,6 +11,7 @@ namespace MovieShop.Api.Controllers
     
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UseCaseController : ControllerBase
     {
         // GET: api/UseCase

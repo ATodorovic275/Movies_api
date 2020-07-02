@@ -30,7 +30,6 @@ namespace MovieShop.Api.Controllers
 
         // GET: api/Reservation
         [HttpGet]
-        //[Authorize]
         public IActionResult Get([FromServices] IGetReservationQuery query, ReservationSearch search)
         {
             

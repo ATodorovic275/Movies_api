@@ -18,6 +18,7 @@ namespace MovieShop.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ActorsController : ControllerBase
     {
         private readonly MovieContext context;

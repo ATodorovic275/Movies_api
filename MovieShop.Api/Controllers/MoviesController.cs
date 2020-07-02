@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using EfDataAccess;
 using EfDataAccess.Configuration;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -44,6 +45,7 @@ namespace MovieShop.Api.Controllers
 
         // POST: api/Movies
         [HttpPost]
+        [Authorize]
         public IActionResult Post([FromBody] MovieDto dto, [FromServices] ICreateMovieCommand command)
         {
             executor.ExecuteCommand(command, dto);
@@ -52,12 +54,16 @@ namespace MovieShop.Api.Controllers
 
         // PUT: api/Movies/5
         [HttpPut("{id}")]
+        [Authorize]
+
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
+        [Authorize]
+
         public IActionResult Delete(int id, [FromServices] IDeleteMovieCommand command)
         {
             executor.ExecuteCommand(command, id);
