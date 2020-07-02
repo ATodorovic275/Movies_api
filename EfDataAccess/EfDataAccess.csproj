@@ -21,6 +21,8 @@
     <Compile Remove="Migrations\20200630124132_updated entity.Designer.cs" />
     <Compile Remove="Migrations\20200630155743_test.cs" />
     <Compile Remove="Migrations\20200630155743_test.Designer.cs" />
+    <Compile Remove="Migrations\20200702044534_update database.cs" />
+    <Compile Remove="Migrations\20200702044534_update database.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

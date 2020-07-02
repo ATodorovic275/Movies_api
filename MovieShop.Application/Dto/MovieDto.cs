@@ -41,4 +41,14 @@ namespace MovieShop.Application.Dto
     {
         public int ActorId { get; set; }
     }
+
+    public class UpdateMovieDto
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public int OnStock { get; set; }
+        public int RuntimeMinutes { get; set; }
+
+    }
 }

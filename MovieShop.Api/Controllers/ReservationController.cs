@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using MovieShop.Application;
 using MovieShop.Application.Commands;
 using MovieShop.Application.Dto;
+using MovieShop.Application.Queries;
+using MovieShop.Application.Searches;
 
 namespace MovieShop.Api.Controllers
 {
@@ -28,10 +30,11 @@ namespace MovieShop.Api.Controllers
 
         // GET: api/Reservation
         [HttpGet]
-        public IActionResult Get()
+        //[Authorize]
+        public IActionResult Get([FromServices] IGetReservationQuery query, ReservationSearch search)
         {
             
-            return Ok();
+            return Ok(executor.ExecuteQuery(query, search));
         }
 
         // GET: api/Reservation/5
@@ -54,6 +57,7 @@ namespace MovieShop.Api.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+
         }
 
         // DELETE: api/ApiWithActions/5

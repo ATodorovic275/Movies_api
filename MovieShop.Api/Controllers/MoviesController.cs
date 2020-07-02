@@ -32,15 +32,14 @@ namespace MovieShop.Api.Controllers
         [HttpGet]
         public IActionResult Get([FromQuery] MovieSearch search, [FromServices] IGetMovieQuery query)
         {
-           
             return Ok(executor.ExecuteQuery(query, search));
         }
 
         // GET: api/Movies/5
         [HttpGet("{id}", Name = "GetMovies")]
-        public string Get(int id)
+        public IActionResult Get(int id, [FromServices] IGetOneMovieQuery query)
         {
-            return "value";
+            return Ok(executor.ExecuteQuery(query, id));
         }
 
         // POST: api/Movies
@@ -59,8 +58,10 @@ namespace MovieShop.Api.Controllers
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id, [FromServices] IDeleteMovieCommand command)
         {
+            executor.ExecuteCommand(command, id);
+            return StatusCode(StatusCodes.Status204NoContent);
         }
     }
 }

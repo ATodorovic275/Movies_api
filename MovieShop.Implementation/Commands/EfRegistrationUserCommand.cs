@@ -16,7 +16,7 @@ namespace MovieShop.Implementation.Commands
         private readonly MovieContext context;
         private readonly RegistationValidator validator;
         private readonly IEmailSender sender;
-        private IEnumerable<int> useCasesForUser = new List<int> { 1, 2, 3, 4, 5, 6 };
+        private IEnumerable<int> useCasesForUser = new List<int> { 2, 9, 20, 7 };
 
 
         public EfRegistrationUserCommand(MovieContext context, RegistationValidator validator, IEmailSender sender)

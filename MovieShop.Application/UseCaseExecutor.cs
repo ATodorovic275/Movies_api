@@ -26,7 +26,7 @@ namespace MovieShop.Application
                 $"{JsonConvert.SerializeObject(request)}");
 
             logger.Log(command, actor, request);
-            // 1 (1,2,3,4)
+
             if (!actor.UseCases.Contains(command.Id))
             {
                 throw new UnauthorizedUseCaseException(command, actor);

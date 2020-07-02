@@ -8,5 +8,7 @@ namespace MovieShop.Application.Searches
     {
         public string Actor { get; set; }
         public string UseCaseName { get; set; }
+        public DateTime DateFrom { get; set; }
+        public DateTime DateTo { get; set; } = DateTime.UtcNow;
     }
 }

@@ -51,6 +51,7 @@ namespace MovieShop.Api
 
             services.AddTransient<MovieContext>();
             services.AddTransient<UseCaseExecutor>();
+
             services.AddTransient<ICreateActorCommand,EfCreateActorCommand>();
             services.AddTransient<IRegistrationUserCommand, EfRegistrationUserCommand>();
 
@@ -60,8 +61,11 @@ namespace MovieShop.Api
 
 
             services.AddTransient<ICreateMovieCommand, EfCreateMovieCommand>();
-            services.AddTransient<ICreateMovieReservationCommand, EfCreateMovieReservation>();
             services.AddTransient<IGetMovieQuery, EfGetMovieQuery>();
+            services.AddTransient<IGetOneMovieQuery, EfGetOneMovieQuery>();
+            services.AddTransient<IDeleteMovieCommand, EfDeleteMovieCommand>();
+
+
 
             services.AddTransient<IGetOneActorQuery, EfGetOneActorQuery>();
             services.AddTransient<IDeleteActorCommand, EfDeleteActorCommand>();
@@ -79,6 +83,8 @@ namespace MovieShop.Api
 
             services.AddTransient<IGetLogsQuery, EfGetLogsQuery>();
 
+            services.AddTransient<ICreateMovieReservationCommand, EfCreateMovieReservation>();
+            services.AddTransient<IGetReservationQuery, EfGetReservationsQuery>();
 
 
 
@@ -136,6 +142,8 @@ namespace MovieShop.Api
 
 
             services.AddTransient<AddMovieValidator>();
+            services.AddTransient<DeleteMovieValidator>();
+
 
 
             services.AddTransient<GenreValidator>();
@@ -153,6 +161,7 @@ namespace MovieShop.Api
             services.AddTransient<DeleteActorValidator>();
 
 
+            services.AddTransient<AddReservationValidator>();
 
 
 

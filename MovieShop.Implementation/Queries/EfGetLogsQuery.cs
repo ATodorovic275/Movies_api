@@ -18,7 +18,7 @@ namespace MovieShop.Implementation.Queries
             this.context = context;
         }
 
-        public int Id => 18;
+        public int Id => 23;
 
         public string Name => "Eg get logs";
 
@@ -36,18 +36,16 @@ namespace MovieShop.Implementation.Queries
                 query = query.Where(x => x.UseCaseName.ToLower().Contains(search.UseCaseName.ToLower()));
             }
 
-            //if (search.DateFrom != DateTime.MinValue)
-            //{
-            //    query = query.Where(x => x.CreatedAt.Date >= search.DateFrom.Date);
-            //}
+            if (search.DateFrom != DateTime.MinValue)
+            {
+                query = query.Where(x => x.Date >= search.DateFrom.Date);
+            }
 
-            //if (search.DateTo != DateTime.MinValue && search.DateTo >= search.DateFrom)
-            //{
-            //    query = query.Where(x => x.CreatedAt.Date <= search.DateTo.Date);
-            //}
+            if (search.DateTo != DateTime.MinValue && search.DateTo >= search.DateFrom)
+            {
+                query = query.Where(x => x.Date <= search.DateTo.Date);
+            }
 
-
-            //query.CheckDateTime(search);
 
             var skipCount = search.PerPage * (search.Page - 1);
 
@@ -65,7 +63,6 @@ namespace MovieShop.Implementation.Queries
 
             return reponse;
 
-            //return query.Paged<LogDto, UseCaseLog>(search, _mapper);
         }
     }
 }

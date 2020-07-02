@@ -23,7 +23,7 @@ namespace MovieShop.Implementation.Validators
             RuleFor(m => m.ReleaseDate).NotEmpty();
             RuleFor(m => m.OnStock).NotEmpty().GreaterThanOrEqualTo(0);
             RuleFor(m => m.RuntimeMinutes).NotEmpty().GreaterThan(0);
-
+            
         }
     }
 }
