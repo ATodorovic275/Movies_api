@@ -1,4 +1,4 @@
-# Movies - asp project
+# Movies - clean arhitecture concept
 Simple movies api 
 
 # Functionalites:
